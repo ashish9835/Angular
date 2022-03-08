@@ -1,0 +1,83 @@
+.container {
+  display: block;
+  width: 80%;
+  height: 100%;
+  border: 1px solid;
+  margin-top: 17px;
+}
+.master {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+}
+.pic {
+  display: inline-block;
+  width: 171px;
+  height: 156px;
+  border-radius: 50%;
+  border: 1px solid;
+  margin-left: 42px;
+}
+.profileInfo {
+  display: inline-block;
+  width: 60%;
+  height: 156px;
+  margin-left: 75px;
+  position: absolute;
+}
+.box {
+  border: 1px solid;
+  width: 657px;
+  height: 140px;
+  margin-top: 40px;
+  margin-left: 42px;
+  display: inline-block;
+}
+.box h2,
+.box p {
+  margin-left: 15px;
+}
+
+.box h2 {
+  color: #3e92bb;
+}
+.allign {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.flex {
+  display: flex;
+}
+.childBox {
+  border: 1px solid;
+  margin-left: 10px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(61, 163, 231);
+}
+
+.pagination{
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    width: 30%;
+}
+
+.center{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,44 @@
+<div class="master">
+  <div class="container">
+  
+
+    <div class="profile">
+
+      <div class="pic"></div>
+
+      <div class="profileInfo">
+        <h2>John Doe</h2>
+        <p>Bio goes here</p>
+        <p>Orlando</p>
+        <p>Twitter:  <strong>http:/twitter.com/john_doe</strong></p>
+      </div>
+
+      <p style="margin-left: 50px;margin-top: 40px; ">Twitter: <strong>http:/twitter.com/john_doe</strong></p>
+
+    </div>
+
+    <div class="allign">
+      <div class="box" *ngFor="let item of data | paginate: { itemsPerPage: 6, currentPage: p}">
+        <h2> {{item.login}}</h2>
+        <p>{{item.login}} description goes here</p>
+        <div class="flex">
+          <div class="childBox">javascript</div>
+          <div class="childBox">angular</div>
+          <div class="childBox">angularjs</div>
+          <div class="childBox">Angular 2+</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="center">
+
+      <div class="pagination">
+        <pagination-controls (pageChange)="p = $event" ></pagination-controls>
+      </div>
+      
+    </div>
+   
+
+  
+  </div>
+</div>
